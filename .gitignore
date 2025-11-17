@@ -3,3 +3,5 @@ venv*
 .python-version
 .tox/
 /.idea
+
+.fake

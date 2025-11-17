@@ -1,6 +1,8 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
+
     {
       "name": "Python: Attach Local",
       "type": "python",
@@ -28,6 +30,25 @@
         {
           "localRoot": "${workspaceFolder}",
           "remoteRoot": "/usr/src/homeassistant"
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Marcel/Documents/GitHub/ha-google-home/custom_components",
+      "program": "c:/Users/Marcel/Documents/GitHub/ha-google-home/custom_components/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
       ]
     }

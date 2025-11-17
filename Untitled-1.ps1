@@ -1,0 +1,1 @@
+Get-ChildItem -Force | Select-Object Mode,LastWriteTime,Length,NameGet-ChildItem -Force | Select-Object Mode,LastWriteTime,Length,Name
